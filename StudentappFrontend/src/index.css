@@ -1,0 +1,13 @@
+.form-container {
+  background-color: antiquewhite;
+  text-align: center;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  line-height: 2;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  font-weight: bold;
+}
+
