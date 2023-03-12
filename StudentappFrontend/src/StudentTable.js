@@ -8,7 +8,7 @@ function StudentTable() {
 
     // fetch students data from backend on component mount
   useEffect(() => {
-    axios.get("http://localhost:8081/students/list").then((response) => {
+    axios.get("http://localhost:8081/api/students/getAll").then((response) => {
       setStudents(response.data);
     });
   },
