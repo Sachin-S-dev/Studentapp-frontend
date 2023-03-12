@@ -13,7 +13,7 @@ const StudentForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const newStudent = { name, dob, className, division, gender };
-    axios.post("http://localhost:8081/students/add", newStudent)
+    axios.post("http://localhost:8081/api/student/add", newStudent)
       .then((res) => console.log(res))
       .catch((err) => console.error(err));
   };
